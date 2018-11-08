@@ -1,17 +1,10 @@
 
 body{
-    background: #fffed8 !important;
     width:100%;
+    background: #97876d;
 }
 
-.header_title{
-	padding: 17px;
-    background-color: #1e3049;
-    border-bottom: 1px solid #ddd;
-    color: #fffed8;
-    font-size: 20px;
-    font-weight: bold;
-}
+
 .footer_style{
 	padding: 17px;
     text-align: center;
@@ -20,29 +13,27 @@ body{
     font-size: 10px;
     width: 100%;
 }
-.header_menu{
-	display: block;
-    margin-bottom: 10px;
-}
-
-.share{
-	
-	float: right;
-	margin-top: -28px;
-}
-
 
 /*Side-bar Content*/
 .sidebar{
-    background-color: #1e3049;
-    height: 30rem;
-    padding: 20px 0px;
+    position: inherit;
+    top: 0px;
+    z-index: 1;
 
+}
+.sidebar .navbar{
+    background-color: #1e3049;
+}
+.sidebar ul{
+    padding-left: 0px;
+    text-align: center;
+    font-weight: bold;
 }
 .sidebar ul>li>a{
     font-size: 17px;
     color: #fffed8;
     line-height: 32px;
+    text-decoration:none
 }
 .sidebar ul>li{
     background-image: linear-gradient(
@@ -52,27 +43,133 @@ body{
         #1e3049 50%);
         background-size: 200% 100%;
         background-position: 100%;
+        line-height: 35px;
 }
 .sidebar ul>li:hover{
     transition: all 1s cubic-bezier(0.000, 0.000, 0.230, 1);
     background-position: 0%;
     cursor: pointer;
 }
-/*Horizontal Navigation*/
-.horizontal-nav{
-    width: 750px;
+.remove_float{
+    float: none;
 }
-.horizontal-nav .nav-tabs>li>a {
+.remove_float button{
+    background-color: #fffed8;
+}
+.sidebar_header{
+    text-align: center;
+    color: #fbdfb2;
+    font-family: fantasy, sans-serif;
+    letter-spacing: 0.7px;
+    text-shadow: 1px 2px 3px firebrick;
+}
+.reach_us{
+    color: #fffed8;
+    text-align: center;
+    font-size: 13px;
+    line-height: 9px;
+    background: #3f4b58;
+    padding: 15px;
+    margin-top: 15px;
+}
+.reach_us>p>a{
+    color: #97876d;
+}
+
+/*Horizontal Navigation*/
+.nav_content .nav-tabs>li>a {
     color: #9e2721;
 }
 .horizontal-nav .nav-tabs>li>a:hover {
-    color: #9e272185;
+    color: #1e3049;
 }
-/**/
-
+.nav_content{
+    background: #fffed8 !important;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.nav.active a{
+    color: #1e3049;
+}
+/*Section Content*/
 .hst_arch img{
     padding: 5px;
 }
 .tab_content{
     padding: 15px;
+}
+.tab_content h2,h3{
+    color: #9e2721;
+}
+.tab_content p{
+    color: #18161b;
+}
+#nav_info{
+    position: initial;
+}
+
+
+/*===============================================================================================
+MEDIA QUERIES
+
+To change breakpoint for nav collapse
+==============================================================================================*/
+
+
+@media (max-width: 480px) {
+ 
+}
+
+@media (max-width: 767px) {
+  
+}
+
+@media (max-width: 995px) {
+  
+}
+
+
+/*========================================================
+  
+Bootstrap 3 Media Queries
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .sidebar_header h2{
+    margin-left: 7rem;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .sidebar_header h2{
+    margin-left: 7rem;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .sidebar_header h2{
+    margin-left: 0;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .sidebar_header h2{
+    margin-left: 0;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .sidebar_header h2{
+    margin-left: 0;
+  }
+    .sidebar .navbar{
+    height: 100vh;
+  }
 }
