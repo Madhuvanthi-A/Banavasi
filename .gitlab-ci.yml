@@ -27,7 +27,7 @@ deploy_prod:
     - echo "Deploy to production server"
   environment:
     name: production
-    url: https://example.com
+    url: https://banavasi2k.com
   when: manual
   only:
   - master
