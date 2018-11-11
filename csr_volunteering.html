@@ -1,114 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Banavasi-2Kyrs</title>
+	<link rel="stylesheet" href="styles/bootstrap-3.3.7/css/bootstrap.min.css">
 	<link rel='stylesheet' type='text/css' href='styles/styles.css' title='wsite-theme-css' />
-	<link rel='stylesheet' type='text/css' href='files/main_stylea21c.css?1401793358' title='wsite-theme-css' />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-	<!--Page Header-->
-	<div class="panel panel-default header_menu">
-	    	<div class="panel-heading header_title">Banavasi- 2000 years of History and Culture</div>
-	    	<div class="share">
-	    		<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/Banavasi.in' target='_blank'>
-	    		<span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:outdoorworld@gmail.com' target='_blank'>
-	    		<span class='wsite-social-item-inner'></span></a></span>
-	    	</div>
-	</div>
-
-	<!--Side bar Menu-->
-	<div id="sidebar">
-		<div class="search"></div>
-		<div id="avmenu">
-			<ul class='wsite-menu-default'>
-				<li id='active'><a href='index.html'>Home</a></li>
-				<li id='active'><a href='banavasi.html'>Banavasi</a></li>
-				<li id='active'><a href='rural_tourism.html'>Rural Tourism</a></li>
-				<li id='active'><a href='about_us.html'>About Us</a></li>
-				<li id='active'><a href='csr_volunteering.html'>CSR / Volunteering</a></li>
-				<li id='active'><a href='gallery.html'>Gallery</a></li>
-				<li id='active'><a href='package.html'>Package</a></li>
-				<li id='active'><a href='reach_us.html'>Reach us</a></li>
-			</ul>
-		</div>
-	</div>
-	<section id="tabs">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<nav>
-						<div class="nav nav-tabs nav-fill" role="tablist">
-							<a class="nav-item nav-link tablinks" href="#" onclick="checkContent(event, 'who_are_we')">Who are We?</a>
-							<a class="nav-item nav-link tablinks"href="#" onclick="checkContent(event, 'ourStory')">Our Story</a>
-
-							<a class="nav-item nav-link tablinks" href="#" onclick="checkContent(event, 'contribution&Experience')">Our Contribution & Experience</a>
-						</div>
-					</nav>
-					<div class="tab-content py-3 px-3 px-sm-0">
-						<div class="tab-pane fade show active navcontent" id="who_are_we">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 archstory">
-										CORPORATE SOCIAL RESPONSIBILITY & VOLUNTEERING
-										 
-										 
-											CORPORATE SOCIAL RESPONSIBILITY
-										 
-										It is estimated that there is about 20,000 Crores of CSR money  available in India. Most of it is being spent in the urban places and  there is very little that is reaching the grass root society or villages.
-										 
-										VOLUNTEERING: - 
-										Corporate and their employees need a space to volunteer. There is a need for meaningful engagement by companies and their employees.  We see that doctors/ scientists are sweeping the roads trying to volunteer their time and services. Is this the best they can do with their expertise and time?
-										 
-										SOLUTION: -
-										 
-										CSR money has to move into villages to address more serious problems like poverty eradication, organic production of food stuff, upgrading hospitals, upgrading schools, bringing technology in farming, reforestation, working with local NGO’s etc. 
-										 
-										Creating a platform for the urban corporate to meet the rural world is the need of the hour.
-										 
-										 Adopting a village or a cause would be the way forward. This will ensure that the employees get an in-depth understanding of themselves and the world around is important. The CSR money can flow directly / thru and NGO and address local issues.
-										 
-										 GDSET.ORG have been catering to this segment and we are the bridge between the rural and urban cultures. We have done this easily, as we as an organization understand both the need of the volunteer / company and at the same time their need to explore the local area (both for work and fun). There should be a good mix of travel and social cause to keep them engaged in the long run.
-										 
-										GDSET.ORG has been instrumental in getting companies / schools and NGO’s enlisted with us to do their CSR activity. Once we show the success of such models, we can have such models all over India. 
-										 
-										GDSET (Grass Root Development and social entrepreneur trust)
-										Bangalore 560032
-										www.gdset.org
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade show navcontent" id="ourStory">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 archstory">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade show navcontent" id="contribution&Experience">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 archstory">
-									</div>
-								</div>
-							</div>
-						</div>
+	<header>
+		<!--Page Header-->
+		<!--div class="header_menu">
+		    <div class="panel-heading header_title">Banavasi- 2000 years of History and Culture</div>
+		    <div class="share">
+		    	Share on Facebook		    	<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/Banavasi.in' target='_blank'>
+		    	Share via gmail
+		    	<span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:outdoorworld@gmail.com' target='_blank'>
+		    	<span class='wsite-social-item-inner'></span></a></span>
+		    </div>
+		</div-->
+	</header>
+	<article class="container-fluid">
+		<div class="row">
+			
+			<aside class="col-sm-4">
+				<div class="sidebar">
+				<nav class="navbar">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header remove_float">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand remove_float" href="#">
+				      	<div class="sidebar_header">
+				      		<h2>Banavasi</h2>
+				      		<small>2000 years of History and Culture</small>
+				      	</div>
+				      </a>
+				    </div>
+				<!--Side bar Menu-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul>
+						<li class="active"><a href='about_us.html'>About Us<span class="sr-only">(current)</span></a></li>
+						<li><a href='banavasi.html'>Banavasi</a></li>
+						<li><a href='rural_tourism.html'>Rural Tourism</a></li>
+						<li><a href='csr_volunteering.html'>Volunteering</a></li>
+						<li><a href='gallery.html'>Gallery</a></li>
+						<li><a href='package.html'>Package</a></li>
+						<li><a href='reach_us.html'>Reach us</a></li>
+					</ul>
+					<div class="reach_us">
+						<p>Kiran</p>
+						<p> +91 81055 45777</p>
+						<p><a href="#">outdoorworld@gmail.com</a></p> 
+						<p><a href="#">www.banavasi.org</a></p>
+						<p>
+							<a class='' href='https://www.facebook.com/Banavasi.in' target='_blank'>Facebook</a>
+						</p>
+						<p>
+							<a class='' href='mailto:outdoorworld@gmail.com' target='_blank'>Gmail</a>
+						</p>
 					</div>
+
+					<footer class="panel-footer footer_style">
+						Rural Tourism, Banavasi. Heritage, Kadamba, Jog Falls, Magod Falls, Mundgod, Madhukeshvara temple, Gudavi, Gurnapura, Siri, Homestay, nature trails, waterfalls, bird sanctuary, chickmagalore, dandeli, karwar, goa, Tibetan camp, Volunteering.
+					</footer>
 				</div>
+				</nav>
 			</div>
+
+
+			</aside>
+
+
+			<section class="col-sm-7" id="nav_info">
+				<div class="nav_content">
+					<!--ul class="nav nav-tabs" role="tablist">
+					  <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">History & Archeology</a></li>
+					  li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Nature and Farming</a></li>
+					  <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Culture and Craft</a></li>
+					  <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">People and Festivals</a></li
+					</ul-->
+
+					 <!--Tab panes -->
+					<div class="tab-content">
+					  	<div role="tabpanel" class="tab-pane active tab_content" id="home">
+							<h2>CORPORATE SOCIAL RESPONSIBILITY & VOLUNTEERING</h2>
+
+							<h3>Corporate Social Responsibility: -</h3>
+							 
+							<p>It is estimated that there is about 20,000 Crores of CSR money  available in India. Most of it is being spent in the urban places and  there is very little that is reaching the grass root society or villages.</p>
+							 
+							<h3>Volunteering: - </h3>
+							<p>Corporate and their employees need a space to volunteer. There is a need for meaningful engagement by companies and their employees.  We see that doctors/ scientists are sweeping the roads trying to volunteer their time and services. Is this the best they can do with their expertise and time?</p>
+							<div class="hst_arch">
+					  			<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/volunteering.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+					  			<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/volunteering1.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+					  		</div>
+							 
+							<h3>Solutions: -</h3>
+							 
+							<p>CSR money has to move into villages to address more serious problems like poverty eradication, organic production of food stuff, upgrading hospitals, upgrading schools, bringing technology in farming, reforestation, working with local NGO’s etc.</p> 
+							<div class="row">
+							<div class="banavasi_img">
+								<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr2.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							</div>
+							<div class="banavasi_img">
+								<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr3.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							</div>
+							<div class="banavasi_img">
+								<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr13.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							</div>
+							<div class="banavasi_img">
+								<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/library.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							</div>
+							</div>
+							<p>Creating a platform for the urban corporate to meet the rural world is the need of the hour.</p>
+							 
+							 <p>Adopting a village or a cause would be the way forward. This will ensure that the employees get an in-depth understanding of themselves and the world around is important. The CSR money can flow directly / thru and NGO and address local issues.</p>
+							 <div class="row">
+							 	<div class="banavasi_img">
+							 		<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr7.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							 	</div>
+							 	<div class="banavasi_img">
+							 		<img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr10.jpg" alt="chittara_craft" class="img-responsive" onclick="window.open(this.src)">
+							 	</div>
+							 </div>
+							 
+							 <p>GDSET.ORG have been catering to this segment and we are the bridge between the rural and urban cultures. We have done this easily, as we as an organization understand both the need of the volunteer / company
+							 		<!--img src="images/rural_tourism/banavasi_rural_experience_trails/transformational_volunteering&csr/csr4.jpg" alt="chittara_craft" class="img-responsive"-->
+							 
+							  and at the same time their need to explore the local area (both for work and fun). There should be a good mix of travel and social cause to keep them engaged in the long run.</p>
+							 
+							<p>GDSET.ORG has been instrumental in getting companies / schools and NGO’s enlisted with us to do their CSR activity. Once we show the success of such models, we can have such models all over India.</p> 
+							 
+	
+					  	
+					  	<div role="tabpanel" class="tab-pane tab_content" id="profile">	
+					  	</div>
+
+					  	<div role="tabpanel" class="tab-pane tab_content" id="messages">
+					  	</div>
+					  	<div role="tabpanel" class="tab-pane" id="settings"></div>
+					</div>
+			  	</div>
+			</section>
 		</div>
-	</section>
-
-
+	</article>	
+	
 	<!--Script for horizontal navigation tabs-->
-	<script src="js/horizontal_tab.js"></script>
+	<script type="text/javascript" src="styles/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<!--Page Footer-->
-	<div class="panel-footer footer_style">
-		Rural Tourism, Banavasi. Heritage, Kadamba, Jog Falls, Magod Falls, Mundgod, Madhukeshvara temple, Gudavi, Gurnapura, Siri, Homestay, nature trails, waterfalls, bird sanctuary, chickmagalore, dandeli, karwar, goa, Tibetan camp, Volunteering.
-	</div>
+	
 </body>
 </html>

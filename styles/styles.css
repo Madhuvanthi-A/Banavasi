@@ -94,12 +94,15 @@ body{
 }
 /*Section Content*/
 .hst_arch img{
-    padding: 5px;
+    padding: 15px;
+    cursor: pointer;
+    /*width: 50%;
+    float: left;*/
 }
 .tab_content{
     padding: 15px;
 }
-.tab_content h2,h3{
+.tab_content h2,h3,h4{
     color: #9e2721;
 }
 .tab_content p{
@@ -108,8 +111,29 @@ body{
 #nav_info{
     position: initial;
 }
-
-
+.contact_us{
+    display: inline-grid;
+}
+.banavasi_img{
+    width: 49.33%;
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+}
+.quotes{
+    padding: 25px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    border-right: 0px;
+}
+.quotes p{
+    color: #3f4b58;
+}
+.container-fluid{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 /*===============================================================================================
 MEDIA QUERIES
 
